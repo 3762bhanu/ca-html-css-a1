@@ -56,6 +56,7 @@ h2 {
 h3{
     font-size: 28px;
     line-height: 1.2;
+    font-weight: 800;
 }
 a{
     color: #ee3425;
@@ -93,6 +94,7 @@ h1{
 h3{
     font-size: 28px;
     line-height: 1.2;
+    font-weight: bold;
 }
 
 header{
@@ -191,6 +193,8 @@ p{
 .banner .bannerContent .bannerChildContent p{
     font-size: 16px;
     margin-bottom: 25px;
+    color: rgb(89, 87, 87);
+    font-weight: 50;
     
 }
 .banner .bannerContent .bannerChildContent .button{
@@ -326,6 +330,7 @@ justify-content: flex-end;
 }
 .productSectionContainer .productTitle{
     text-align: center;
+    
 }
 
 .productSectionContainer h3{
