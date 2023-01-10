@@ -203,7 +203,7 @@ p{
     height: 36px;
     font-family: var(--font-family);
     font-size: 14px!important;
-    font-weight: 700!important;
+    font-weight: 700;
 }
 .banner .bannerImg {
     flex: 1;
@@ -835,7 +835,15 @@ justify-content: space-between;
     font-size: 14px!important;
     color: #9a9a9a;
 }
-
+.styles_name__OTyeY{
+    font-weight: bold;
+}
+.styleFindMore{
+    color: #ee3425;
+}
+.styleAddMore{
+    color: #ee3425;
+}
 .styleButtonContainer {
     display: flex;
     align-items: center;
