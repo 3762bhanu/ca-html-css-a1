@@ -1,26 +1,7 @@
-:root {
-    --color-primary: #ee3425;
-    --color-primary-1: #ee3425;
-    --color-primary-2: #ee3425;
-    --color-secondary: #fbdc00;
-    --color-secondary-1: #ebbe00;
-    --font-color: #434343;
-    --font-color-heading: #000;
-    --font-color-link: var(--color-primary);
-    --font-family: "PT Sans",sans-serif;
-    --font-family-heading: "Ubuntu",sans-serif;
-    --font-size-xl: 18px;
-    --font-size-lg: 16px;
-    --font-size-md: 14px;
-    --font-size-sm: 12px;
-    --font-size-xs: 10px;
-    --line-height: 1.5;
-}
 *{
     box-sizing: border-box;
     outline: none;
     border: none;
-    text-decoration: none;
     list-style-type: none;
     
 }
@@ -28,7 +9,7 @@
 html,body{
     width: 100%;
     height: 100%;
-    font-family:  var(--font-family);
+    font-family: "PT Sans",sans-serif;
     font-size: 14px;
     line-height: 1.5;
 }
@@ -68,11 +49,11 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 1em;
 }
 h1, h2, h3, h4, h5, h6, p {
-font-family:var(--font-family-heading) ;
-color: var(--font-color-heading);
+font-family:"Ubuntu",sans-serif ;
+color: #000;
 }
 body{
-    font-family:  var(--font-family);
+    font-family: "PT Sans",sans-serif;
     font-size: 14px;
     line-height: 1.5;
     color: #434343;
@@ -106,10 +87,10 @@ header{
     z-index: 100;
     justify-content: space-between;
     align-items: center;
-    font-family: var(--font-family-heading);
+    font-family: "Ubuntu",sans-serif;
     width: 100%;
     padding: 8px 106px;
-    background: var(--color-secondary);
+    background: #fbdc00;
 }
 header.topLogo{
     margin-left: auto;
@@ -125,8 +106,8 @@ header .topBar{
     
 }
 header .topBar a{
-    font-family: var(--font-family-heading);
-    font-weight: bold;
+    font-family: "PT Sans",sans-serif;
+    font-weight: 600;
     color: black;
     padding:0px 23px;
 }
@@ -142,23 +123,22 @@ header .topBar a{
 }
 
 .loginSignup .login span{
-    color: var(--font-color-heading);
+    color:#000;
     font-weight:bold;
 }
 .loginSignup .signupButton{
     color: #fff;
-    background-color: var(--color-primary)!important;
-    border: 1px solid var(--color-primary);
+    background-color: #ee3425;
+    border: 1px solid #ee3425;
     min-width: 72px;
     height: 36px;
     padding: 4px 16px;
     width: 100%;
     border-radius: 8px;
-    font-family: var(--font-family);
+    font-family: "PT Sans",sans-serif;
     font-size: 14px!important;
     font-weight: 700!important;
 }
-
 
 p{
     display: block;
@@ -176,7 +156,7 @@ p{
     align-items: center;
     justify-content: space-between;
     background: url(https://cdn.cogoport.io/cms-prod/vault/original/home-banner-background-1.webp);
-    background-color: var(--color-secondary);
+    background-color: #fbdc00;
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100%;
@@ -194,25 +174,25 @@ p{
     font-size: 16px;
     margin-bottom: 25px;
     color: rgb(89, 87, 87);
-    font-weight: 50;
+    font-weight: normal;
     
 }
 .banner .bannerContent .bannerChildContent .button{
     color: #fff;
-    background-color: var(--color-primary);
-    border: 1px solid var(--color-primary);
+    background-color: #ee3425;
+    border: 1px solid #ee3425;
     min-width: 72px;
-    padding: 8px 42px!important;
-    border-radius: 8px!important;
+    padding: 8px 42px;
+    border-radius: 8px;
     height: 36px;
-    font-family: var(--font-family);
-    font-size: 14px!important;
+    font-family: "PT Sans",sans-serif;
+    font-size: 14px;
     font-weight: 700;
 }
 .banner .bannerImg {
     flex: 1;
     margin-bottom: -66px ;
-    margin-left: 2em; 
+    margin-left: 32px; 
     padding-right: 150px;
 }
 .bannerImg{
@@ -231,7 +211,7 @@ h2{
 
 .numberBanner{
     width: 1200px;
-    margin: 0px 83px !important;
+    margin: 0px 83px ;
     padding-left: 100px;
     padding-top: 10px;
     margin-right: auto;
@@ -252,7 +232,7 @@ h2{
     justify-content: center;
 }
 .numberBanner .numberContainer .textContainer h2{
-    color: var(--color-primary);
+    color: #ee3425;
     margin: 0px;
 }
 .numberBanner .numberContainer .textContainer h4{
@@ -271,18 +251,16 @@ h2{
 }
 
 h4{
-   
     display: block;
     margin-block-start: 1.33em;
     margin-block-end: 1.33em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-
 }
 
 .worldContainer{
-    padding: 16px!important;
+    padding: 16px;
     margin-right: auto;
     margin-left: auto;
     display: flex;
@@ -395,7 +373,7 @@ justify-content: flex-end;
     align-items: center;
     margin: 10px;
     font-weight: 700;
-    color: var(--color-primary);
+    color: #ee3425;
     cursor: pointer;
 }
 .productSectionContainer .productContainer .productItemContainer .productItem .productItemCard .productStyleCard  span{
@@ -440,15 +418,6 @@ justify-content: flex-end;
     align-items: center;
     justify-content: space-around;
     min-width: 100%;
-    animation: styles_scroll__Yny6C 60s linear infinite;
-    animation-duration: 60s;
-    animation-timing-function: linear;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    animation-name: styles_scroll__Yny6C;
 }
 .brandContainer .companyLogos .item img {
 	height: 100%;
@@ -458,7 +427,7 @@ justify-content: flex-end;
 /* banner 2  */
 .banner2{
     margin-bottom: 50px;
-    background: var(--color-secondary);
+    background: #fbdc00;
 }
 .banner2Container{
     padding: 16px;
@@ -479,8 +448,8 @@ justify-content: flex-end;
 }
 .banner2Button{
     color: #fff;
-    background-color: var(--color-primary);
-    border: 1px solid var(--color-primary);
+    background-color:  #ee3425;
+    border: 1px solid #ee3425;
     min-width: 72px;
     height: 36px;
     padding: 4px 16px;
@@ -509,7 +478,7 @@ justify-content: flex-end;
     padding: 20px;
     margin: 0 20px;
     font-weight: 700;
-    color: #000!important;
+    color: #000;
     border-radius: 20px;
     background: #fbdc00;
     border: #fbdc00;
@@ -527,10 +496,10 @@ justify-content: flex-end;
     padding: 20px;
     margin: 0 20px;
     font-weight: 700;
-    color: #000!important;
+    color: #000;
     border-radius: 20px;
-    background: #e5dfdf!important;
-    border: grey!important;
+    background: #e5dfdf;
+    border: grey;
     min-width: 72px;
     height: 36px;
     display: flex;
@@ -675,7 +644,7 @@ justify-content: space-between;
     color: #fff;
     text-align: center;
     cursor: pointer;
-    background-color: var(--color-primary);
+    background-color:  #ee3425;
     border-radius: 8px;
 }
 .tradeImageContainer{
@@ -708,7 +677,7 @@ justify-content: space-between;
     background-color: rgba(0,0,0,.4);
 }
 .videoBanner{
-    background: var(--color-primary);
+    background:  #ee3425;
 }
 .videoBannerContainer{
     position: relative;
@@ -735,8 +704,8 @@ justify-content: space-between;
 }
 .knowButton{
     color: #000!important;
-    background: var(--color-secondary)!important;
-    border: 1px solid var(--color-primary);
+    background: #fbdc00!important;
+    border: 1px solid  #ee3425;
     min-width: 72px;
     height: 36px;
     padding: 4px 16px;
@@ -811,7 +780,7 @@ justify-content: space-between;
 .styleCardTitle {
     margin-bottom: 5px;
     font-size: 16px!important;
-    color: var(--color-primary);
+    color:  #ee3425;
 }
 .styleCardName {
     margin-bottom: 5px;
@@ -832,7 +801,7 @@ justify-content: space-between;
     display: flex;
     align-items: center;
     font-weight: 700;
-    color: var(--color-primary);
+    color:  #ee3425;
     cursor: pointer;
 }
 .styleCardTitle1 {
@@ -857,8 +826,8 @@ justify-content: space-between;
 }
 .viewAllButton{
     color: #fff;
-    background-color: var(--color-primary);
-    border: 1px solid var(--color-primary);
+    background-color:  #ee3425;
+    border: 1px solid  #ee3425;
     min-width: 72px;
     height: 36px;
     display: flex;
@@ -869,7 +838,7 @@ justify-content: space-between;
 }
 .viewAllButton span{
     font-size: 14px;
-    font-family: var( --font-family);
+    font-family:   "PT Sans",sans-serif;
     font-weight: 700!important;
 }
 
@@ -881,7 +850,7 @@ justify-content: space-between;
     justify-content: center;
     padding-top: 120px;
     margin-top: 20px;
-    background-color: var(--color-secondary);
+    background-color:  #fbdc00;
 }
 
 .news-letterImg{
@@ -898,7 +867,7 @@ justify-content: space-between;
     margin-bottom: 0em !important;
 }
 .subscribeContainer .subscribeDescription{
-    font-size: var(--font-size-lg);
+    font-size:  16px;
 }
 .subscribeInputContainer{
     margin-top: 20px;
@@ -919,8 +888,8 @@ justify-content: space-between;
 }
 .subscribeInputContainer .formButton{
     color: #fff;
-    background-color: var(--color-primary);
-    border: 1px solid var(--color-primary);
+    background-color:  #ee3425;
+    border: 1px solid  #ee3425;
     min-width: 72px;
     padding: 4px 16px;
     font-size: 13px;
